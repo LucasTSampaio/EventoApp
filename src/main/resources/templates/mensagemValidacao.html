@@ -1,0 +1,13 @@
+<html xmlns:th="http://thymeleaf.org"
+		  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+	<head>
+	
+	</head>
+	<body>
+		<div class="alert alert-success alert-dismissible" role="alert" th:if="${not #strings.isEmpty(mensagem)}"></div>
+		
+		<span th:text="${mensagem}"></span>
+	
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	</body>
+</html>

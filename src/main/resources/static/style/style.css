@@ -1,0 +1,27 @@
+*  {
+    margin:0;
+    padding:0;
+}
+
+.detalhesEvento{
+	padding:20px;
+}
+
+.tableConvidado{
+	width: 50%;	
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgba(255,255,255,0.8);
+}
+
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
